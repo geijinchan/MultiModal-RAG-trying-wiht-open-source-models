@@ -31,8 +31,30 @@ This project demonstrates a multimodal retrieval-augmented generation system tha
 
 ## Installation
 
+
+To install the required packages for this project, follow these steps:
+
+1. Clone the repository:
+
+    ```bash
+    git clone https://github.com/geijinchan/MultiModal-RAG-trying-with-open-source-models.git
+    cd MultiModal-RAG-trying-with-open-source-models
+    ```
+
+2. Create a virtual environment (optional but recommended):
+
+    ```bash
+    python -m venv venv
+    source venv/bin/activate  # On Windows use `venv\Scripts\activate`
+    ```
+
+3. Install the dependencies:
+
+    ```bash
+    pip install -r requirements.txt
+    ```
+
+Alternatively, you can install the packages individually using:
+
 ```bash
 pip install annoy sentence-transformers moviepy pytube pytubefix pydub openai-whisper SpeechRecognition faiss-cpu groq
-
-
-
